@@ -1,0 +1,16 @@
+{
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--completion-style=detailed",
+    "--header-insertion=iwyu",
+    "--header-insertion-decorators",
+    "--function-arg-placeholders",
+    "--suggest-missing-includes",
+    "--query-driver=${workspaceFolder}/.platformio/packages/**/bin/*",
+    "--compile-commands-dir=${workspaceFolder}"
+  ],
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+}
