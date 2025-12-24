@@ -4,6 +4,7 @@
 .vscode/launch.json
 .vscode/ipch
 .cache
+.clangd
 
 # Prevent committing downloaded VSIX extensions 
 .vscode_exts/
