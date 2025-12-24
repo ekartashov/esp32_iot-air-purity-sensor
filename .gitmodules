@@ -1,0 +1,3 @@
+[submodule "pio-clangd"]
+	path = pio-clangd
+	url = https://github.com/gunlock/pio-clangd.git
